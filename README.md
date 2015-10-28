@@ -89,8 +89,8 @@ public class MiniDuckSimulator{
         System.out.println("");
     }
 }
-```
 
+```
 
 Esta es la clase ‘Duck’. Es la clase principal desde la que partimos.
 
