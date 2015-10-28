@@ -27,9 +27,6 @@ puts "Estamos en la semana " + (time.strftime("%W").to_i + 1).to_s + " de este a
 
 # STRATEGY (ESTRATEGIA)
 
-
-
-
 ## Propósito
 
 Define una familia de algoritmos, encapsula cada uno de ellos y los hace intercambiables. Permite que un algoritmo varíe independientemente de los clientes que lo usen.
