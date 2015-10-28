@@ -61,7 +61,7 @@ Puede definir una interfaz que permita a la Estrategia acceder a sus datos.
 Código de ejemplo.
 Comenzaremos con la clase ‘MiniDuckSimulator’ que es la clase desde donde comienza todo.
 
-```
+```java
 public class MiniDuckSimulator{
     public static void main (String[] args){
         System.out.println("");
