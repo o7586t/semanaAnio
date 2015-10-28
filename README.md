@@ -47,8 +47,6 @@ Un algoritmo usa datos que los clientes no deberían conocer. Úsese el patrón 
 Una clase define muchos comportamientos, y estos se representan como múltiples sentencias condicionales, podemos mover las ramas de estos a su propia clase 'Estrategia'.
 Estructura
 
-
-
 Participantes
 Estrategia (Componedor)
 Declara una interfaz común a todos los algoritmos permitidos. El contexto usa esta interfaz para llamar al algoritmo definido por una EstrategiaConcreta.
@@ -59,23 +57,23 @@ Se configura con un objeto EstrategiaConcreta.
 Mantiene una referencia a un objeto Estrategia.
 Puede definir una interfaz que permita a la Estrategia acceder a sus datos.
 Código de ejemplo.
-Comenzaremos con la clase ‘MiniDuckSimulator’ que es la clase desde donde comienza todo.
+Comenzaremos con la clase ‘MiniDuckSimulator’ que es la clase desde donde comienza todo. 
 
 ```java
 public class MiniDuckSimulator{
     public static void main (String[] args){
         System.out.println("");
-
+        
         Duck mallard = new MallardDuck();
         mallard.display();
         mallard.performQuack();
         mallard.performFly();
         mallard.swim();
-
+        
         System.out.println("++++++++++++++++++++++++++++++");
         System.out.println("++++++++++++++++++++++++++++++");
         System.out.println("++++++++++++++++++++++++++++++");
-
+        
         Duck model = new ModelDuck();
         model.display();
         model.performFly();
@@ -85,12 +83,10 @@ public class MiniDuckSimulator{
         model.display();
         model.performFly();
         model.swim();
-
+        
         System.out.println("");
     }
-}
-
-```
+}```
 
 Esta es la clase ‘Duck’. Es la clase principal desde la que partimos.
 
