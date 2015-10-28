@@ -59,7 +59,8 @@ Puede definir una interfaz que permita a la Estrategia acceder a sus datos.
 Código de ejemplo.
 Comenzaremos con la clase ‘MiniDuckSimulator’ que es la clase desde donde comienza todo. 
 
-```java
+```javascript
+
 public class MiniDuckSimulator{
     public static void main (String[] args){
         System.out.println("");
@@ -86,9 +87,12 @@ public class MiniDuckSimulator{
         
         System.out.println("");
     }
-}```
+}
+```
 
-Esta es la clase ‘Duck’. Es la clase principal desde la que partimos.
+Esta es la clase `‘Duck’`. Es la clase principal desde la que partimos.
+
+```Javascript
 
 public abstract class Duck{
     
@@ -120,6 +124,7 @@ public abstract class Duck{
         quackBehavior = qb;
     }
 }
+```
 
 public class ModelDuck extends Duck {
 
